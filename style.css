@@ -6,7 +6,7 @@ header {
     padding:20px;
     height:100px;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode',serif;
-    background-color: rgb(105, 79, 147);
+    background-color: rgb(112, 114, 236);
     color: white;
 }
 
@@ -32,5 +32,27 @@ header nav ul{
 
 nav ul li{
     display: inline-block;
+
+}
+li a:hover{
+    background-color: bisque;
+    color:black;
+}
+.aboutme{
+    height:15%;
+    width: 85%;
+    padding:30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    background:url(./3375468.jpg);
+    overflow: hidden;
+    border-radius: 40px;
+
+}
+.aboutme h2{
+    display:block;
+    font-size: 45px;
+    color: white;
 
 }
