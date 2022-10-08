@@ -38,7 +38,8 @@ li a:hover{
     background-color: bisque;
     color:black;
 }
-.aboutme{
+.aboutme
+{
     height:15%;
     width: 85%;
     padding:30px;
@@ -56,3 +57,43 @@ li a:hover{
     color: white;
 
 }
+.works{
+    height:15%;
+    width: 85%;
+    padding:30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    background:url(./3375468.jpg);
+    overflow: hidden;
+    border-radius: 40px;
+    flex-wrap: wrap;
+}
+.works h2{
+    display:block;
+    font-size: 45px;
+    color: white;
+    margin-bottom:5px;
+    text-align:top;
+}
+.works .Image{
+    width:40%;
+    height:100%;
+    flex-wrap: wrap;
+}
+.para{
+    font-size: 30px;
+    display:inline-block;
+    position: absolute;
+    text-align:left;
+    padding-bottom: 30px;
+    margin:5px;
+}
+.Image:hover{
+    transform: scale(2);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
