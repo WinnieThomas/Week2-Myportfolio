@@ -131,7 +131,7 @@ html{
     nav ul li a{
         background-color: rgb(104, 37, 67);
         display: block;
-        width:100%;
+        width:100%;}
 
     }
 
@@ -144,5 +144,3 @@ html{
     }
 
 }
-
-
