@@ -38,6 +38,7 @@ li a:hover{
     background-color: bisque;
     color:black;
 }
+/*about me section*/
 .aboutme
 {
     height:15%;
@@ -57,9 +58,10 @@ li a:hover{
     color: white;
 
 }
+/*Works Section*/
 .works{
     height:15%;
-    width: 85%;
+    width:85%;
     padding:30px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -76,24 +78,71 @@ li a:hover{
     margin-bottom:5px;
     text-align:top;
 }
-.works .Image{
-    width:40%;
-    height:100%;
-    flex-wrap: wrap;
+.works .container{
+    width:300px;
+    height:350px;
 }
-.para{
-    font-size: 30px;
+.works .container .Image{
+    width:300px;
+    height:300px;
+    
+}
+.container .para{
+    width:200px;
+    height:50px;
+    font-size: 25px;
     display:inline-block;
     position: absolute;
-    text-align:left;
+    text-align: center;
     padding-bottom: 30px;
     margin:5px;
 }
+/*Contact details*/
+.contactme
+    {
+        height:15%;
+        width: 85%;
+        padding:30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        background:url(./3375468.jpg);
+        overflow: hidden;
+        border-radius: 40px;
+}
+/*Enlarges Image while hovering*/
 .Image:hover{
     transform: scale(2);
 }
 html{
     scroll-behavior: smooth;
+}
+/*footer section*/
+.footer{
+    font-size: 25px;
+    text-align: center;
+    padding:20px;
+    height:100px;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode',serif;
+    background-color: rgb(112, 114, 236);
+    color: white;
+}
+@media screen and (max-width:992px) {
+    nav ul li a{
+        background-color: rgb(104, 37, 67);
+        display: block;
+        width:100%;
+
+    }
+
+@media screen and (max-width:600px) {
+    nav ul li a{
+        background-color: darkcyan;
+        display: block;
+        width:100%;
+
+    }
+
 }
 
 
