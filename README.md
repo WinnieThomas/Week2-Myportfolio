@@ -19,3 +19,4 @@ WHEN I click on the image the image will take me to the original hosted website 
 WHEN I adjust the screen size the page will adjust internally within the webpage SOTHAT I CAN view on any screen sizes.
 
 The link to the deploye Github URL
+ https://winniethomas.github.io/Week2-Myportfolio/
